@@ -1,0 +1,66 @@
+
+.register{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer{
+    width: 60%;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.5);
+    margin-top: 10rem;
+    padding: 3rem;
+    border-radius: 5px;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem 0 4rem 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.input{
+    padding:1rem;
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+.submit{
+    margin: 4rem 0 2rem 0;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: white;
+    background: green;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+.submit:hover{
+    font-weight: 400;
+}
+
+.text{
+    text-align:center;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: blue;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.text:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,124 @@
+.view{
+    width: 100%;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    align-self: flex-start;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.status{
+    align-self: flex-start;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    margin-top: 5rem;
+
+}
+
+.jobUrl{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    font-size: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    color: white;
+    background: black;
+    width: 12.5%;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover{
+    color: black;
+    background: white;
+}
+
+.btnDel{
+    font-size: 2rem;
+    padding: 1rem;
+    border: 1px solid red;
+    color: white;
+    background: red;
+    width: 12.5%;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.btnDel:hover{
+    color: red;
+    background: white;
+}
+
+.container{
+    margin-top: 2rem;
+}
+
+.block{
+    /* background: pink; */
+    display: flex;
+    align-items: center;
+}
+
+.label{
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    width: 120px;
+}
+
+.labelContent{
+    /* padding:  0 1rem; */
+    margin: 1rem 0;
+    padding: 0 1rem;
+    font-size:1.6rem;
+    color: blue;
+
+}
+
+.btnLink{
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btnLink:hover{
+    background: blue;
+    color: white;
+}
+
+.green{
+    color: green;
+}
+.orange{
+    color: orange;
+}
+.red{
+    color: red;
+}

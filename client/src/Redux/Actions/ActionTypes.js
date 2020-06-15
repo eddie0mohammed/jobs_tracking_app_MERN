@@ -1,0 +1,43 @@
+
+export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+export const RESET_REGISTER_STATUS = 'RESET_REGISTER_STATUS';
+
+export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+
+export const LOGOUT = 'LOGOUT';
+
+
+export const RESET_PASSWORD_REQUEST = 'RESET_PASSWORD_REQUEST';
+
+export const FORGOT_PASSWORD = 'FORGOT_PASSWORD';
+export const RESET_FORGOT_PASSWORD_STATUS = 'RESET_FORGOT_PASSWORD_STATUS';
+
+export const RESET_PASSWORD_SUCCESS = 'RESET_PASSWORD_SUCCESS';
+export const RESET_PASSWORD_SUCCESS_STATUS = 'RESET_PASSWORD_SUCCESS_STATUS';
+
+export const GET_USER = 'GET_USER';
+
+export const RESET_MY_PASSWORD = 'RESET_MY_PASSWORD';
+
+
+export const GET_ALL_JOBS = 'GET_ALL_JOBS';
+
+export const CREATE_NEW_JOB = "CREATE_NEW_JOB";
+
+export const UPDATE_JOB = "UPDATE_JOB";
+
+export const DELETE_JOB = 'DELETE_JOB';
+
+
+
+
+export const CLEAR_ERRORS = 'CLEAR_ERRORS';
+export const REGISTER_ERROR = 'REGISTER_ERROR';
+export const LOGIN_FAIL = 'LOGIN_FAIL';
+export const RESET_PASSWORD_ERR = 'RESET_PASSWORD_ERR';
+export const GET_USER_FAIL = 'GET_USER_FAIL';
+export const ERROR = 'ERROR';
+export const ERR = 'ERR';
+
+
+export const SET_JOB_NULL = 'SET_JOB_NULL';

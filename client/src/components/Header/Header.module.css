@@ -1,0 +1,33 @@
+
+.header{
+    display: flex;
+    width: 100%;
+    background: blue;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: 600; 
+    color: white;
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    padding: 0 1.5rem;
+    font-size: 1.6rem;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: red;
+}
